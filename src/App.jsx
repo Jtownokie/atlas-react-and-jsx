@@ -2,6 +2,7 @@
 import { Header } from "./components/Header";
 import { Section } from "./components/Section";
 import { HelpfulResource } from "./components/HelpfulResource";
+import { AboutMe } from "./components/AboutMe";
 
 function App() {
   return (
@@ -26,6 +27,13 @@ function App() {
         <HelpfulResource label="Learn React - Scrimba" link="https://v2.scrimba.com/learn-react-c0e" />
         <HelpfulResource label="Open Source React Courses - GitHub Repository" link="https://github.com/flashohq/open-source-react-courses" />
       </Section>
+      <AboutMe>
+        My name is Chris Stephens, and I am a Full Stack Web-Development Student currently finishing my last trimester at Atlas Coding School.
+        After I graduate, I am looking to enter into a position in the fields of education or healthcare. Helping others is my passion, 
+        and helping others learn is a great privilege. This trimester we are learning all about React. JavaScript is my favorite language to work 
+        with, and React has an incredibly smooth learning curve, I can't wait to see what all it can do! In my free time I like to read and play video games, 
+        I am definitely hoping to use my coding skill set to learn how to create fun interactive mediums.
+      </AboutMe>
     </div>
   );
 }
