@@ -1,3 +1,4 @@
+// Header Component, Combining Greeting and SocialLinks Components
 import { Greeting } from "./Greeting";
 import { SocialLinks } from "./SocialLinks";
 

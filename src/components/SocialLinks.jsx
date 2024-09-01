@@ -1,3 +1,4 @@
+// Social Links Component
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 
