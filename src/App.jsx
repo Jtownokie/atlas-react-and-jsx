@@ -1,6 +1,7 @@
 // App
 import { Header } from "./components/Header";
 import { Section } from "./components/Section";
+import { HelpfulResource } from "./components/HelpfulResource";
 
 function App() {
   return (
@@ -19,6 +20,11 @@ function App() {
           <li>Rich Ecosystem of Third-Party Libraries</li>
           <li>Virtual DOM Manipulation to Improve Performance</li>
         </ul>
+      </Section>
+      <Section title="Helpful resources">
+        <HelpfulResource label="The Beginner's Guide to React - egghead.io" link="https://egghead.io/courses/the-beginner-s-guide-to-react" />
+        <HelpfulResource label="Learn React - Scrimba" link="https://v2.scrimba.com/learn-react-c0e" />
+        <HelpfulResource label="Open Source React Courses - GitHub Repository" link="https://github.com/flashohq/open-source-react-courses" />
       </Section>
     </div>
   );
