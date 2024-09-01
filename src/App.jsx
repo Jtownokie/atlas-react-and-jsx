@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Section } from "./components/Section";
 import { HelpfulResource } from "./components/HelpfulResource";
 import { AboutMe } from "./components/AboutMe";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         with, and React has an incredibly smooth learning curve, I can't wait to see what all it can do! In my free time I like to read and play video games, 
         I am definitely hoping to use my coding skill set to learn how to create fun interactive mediums.
       </AboutMe>
+      <Footer />
     </div>
   );
 }
