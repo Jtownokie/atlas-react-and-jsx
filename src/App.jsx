@@ -1,5 +1,7 @@
+import { Greeting } from "./components/Greeting";
+
 function App() {
-  return <div className="app">Hello Atlas</div>;
+  return <Greeting />;
 }
 
 export default App;
