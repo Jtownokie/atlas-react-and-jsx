@@ -1,7 +1,13 @@
 import { Greeting } from "./components/Greeting";
+import { SocialLinks } from "./components/SocialLinks";
 
 function App() {
-  return <Greeting />;
+  return (
+    <div>
+      <Greeting />
+      <SocialLinks />
+    </div>
+  );
 }
 
 export default App;
